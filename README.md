@@ -25,7 +25,7 @@ To use the client, you can require the clj-gpt.client namespace and call the fun
 
 ```clojure
 (ns myapp.core
-  (:require [chatgpt.client :as chat]))
+  (:require [clj-gpt.client :as chat]))
 
 (defn chat-example [prompt]
   (let [response (chat/generate-response prompt)]
