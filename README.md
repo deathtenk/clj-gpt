@@ -6,8 +6,8 @@ This is a Clojure-based client for interacting with ChatGPT, a large language mo
 
 This project uses the following dependencies:
 
-[clj-http](https://github.com/dakrone/clj-http) - for making HTTP requests
-[cheshire](https://github.com/dakrone/cheshire) - for parsing JSON responses
+- [clj-http](https://github.com/dakrone/clj-http) - for making HTTP requests
+- [cheshire](https://github.com/dakrone/cheshire) - for parsing JSON responses
 
 ## Configuration
 
