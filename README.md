@@ -6,8 +6,8 @@ This is a Clojure-based client for interacting with ChatGPT, a large language mo
 
 This project uses the following dependencies:
 
-    [clj-http](https://github.com/dakrone/clj-http) - for making HTTP requests
-    [cheshire](https://github.com/dakrone/cheshire) - for parsing JSON responses
+[clj-http](https://github.com/dakrone/clj-http) - for making HTTP requests
+[cheshire](https://github.com/dakrone/cheshire) - for parsing JSON responses
 
 ## Configuration
 
@@ -37,9 +37,7 @@ To use the client, you can require the clj-gpt.client namespace and call the fun
 (chat-example "hello there!") ; => "Hello! How can I assist you today?"
 ```
 
-In this example, chat/generate-response is used to generate a response from ChatGPT given a prompt. The response is returned as a parsed JSON object with a text field containing the generated text.
-
-The `clj-gpt.client` namespace handles the authentication and API endpoint URL generation for you.
+In this example, chat/generate-response is used to generate a response from ChatGPT given a prompt. The response is returned as a parsed JSON object with the generated text packed in a list, each with messages corresponding to the different responses that get generated.
 
 ## License
 
